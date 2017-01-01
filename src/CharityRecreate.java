@@ -1,7 +1,7 @@
 /**
  * Created by Daniel Hernandez on 12/29/2016.
  * -Recreation of school project at Regis University.
- * 1st Version- Array
+ * 1st Version- Normal object comparison.
  *
  */
 
