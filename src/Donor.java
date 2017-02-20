@@ -32,6 +32,7 @@ public class Donor {
     }
 
 
+    //**************************************SETTERS * GETTERS*********************************************************
 
     public int getDonorId() {
         return donorId;
@@ -73,19 +74,9 @@ public class Donor {
         this.emailAddress = emailAddress;
     }
 
+    //**************************************SETTERS * GETTERS END*********************************************************
 
-    /**
-     * Method to get if email contains @ symbol. Used for now instead of regex.
-     * @param donor - donor object
-     * @return
-     */
-    public boolean checkEmail(Donor donor) {
-        if (this.emailAddress.contains("@")) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+
 
     /**
      * Method to check if two donor objects contain same value.
@@ -115,7 +106,7 @@ public class Donor {
     public String toString() {
         return "Donor {donorId= " + this.getDonorId() + ", " + "firstname= " + this.getFirstName() + ", " +
                 "lastname= " + this.getLastName() + ", " + "phoneNumber= " + this.getPhoneNumber() + ", "
-                + "emailAddress= " + this.getEmailAddress();
+                + "emailAddress= " + this.getEmailAddress() + "}";
     }
 }
 
